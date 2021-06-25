@@ -1,0 +1,55 @@
+/*  -- MOBILE FIRST Layout!!! -- */
+/* General Rules */
+#header {
+  background-color: #bfdd2f;
+  font-family: "Kirang Haerang", cursive;
+}
+
+#header h1 {
+  font-size: 3em;
+  color: #9c897a;
+}
+
+#hero {
+  background-color: #f1f1f3;
+}
+
+#nav {
+  background-color: #bfdd2f;
+  font-family: "Kirang Haerang", cursive;
+  font-size: 1.2em;
+}
+
+h2 {
+  font-family: "Kirang Haerang", cursive;
+  background-color: #bfdd2f;
+}
+
+#main .card {
+  background-color: #f1f1f3;
+}
+
+#main .card h4,
+#main .card h5 {
+  font-family: "Kirang Haerang", cursive;
+}
+
+#main .card h4 p,
+#main .card h5 p {
+  font-family: "Dancing Script", cursive;
+}
+
+#footer {
+  background-color: #bfdd2f;
+}
+
+#footer h1 {
+  font-family: "Kirang Haerang", cursive;
+  font-size: 1em;
+  color: #9c897a;
+}
+
+#footer p {
+  font-family: "Dancing Script", cursive;
+}
+/*# sourceMappingURL=style.css.map */

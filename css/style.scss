@@ -2,10 +2,64 @@
 
 /* General Rules */
 
-@import ""
-
-
+@import 'variables';
 
 // HEADER styling
 
-#header 
+#header {
+  background-color: $secondaryColor;
+  font-family: $mainText;
+  h1 {
+    font-size: 3em;
+    color: $mainColor;
+  }
+}
+
+// HERO styling
+
+#hero {
+  background-color: $bg-color;
+}
+
+// NAVIGATION styling
+
+#nav {
+  background-color: $secondaryColor;
+  font-family: $mainText;
+  font-size: 1.2em;
+}
+
+// MAIN styling
+h2 {
+  font-family: $mainText;
+  background-color: $secondaryColor;
+}
+
+#main {
+  .card {
+    background-color: $bg-color;
+
+    h4,
+    h5 {
+      font-family: $mainText;
+
+      p {
+        font-family: $secondaryText;
+      }
+    }
+  }
+}
+
+// FOOTER styling
+
+#footer {
+  background-color: $secondaryColor;
+  h1 {
+    font-family: $mainText;
+    font-size: 1em;
+    color: $mainColor;
+  }
+  p {
+    font-family: $secondaryText;
+  }
+}

@@ -4,24 +4,371 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./bootstrap-5.0.1-dist/css/bootstrap.css">
-    <link rel="stylesheet" href="./css/style.scss" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Kirang+Haerang&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./bootstrap-5.0.1-dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Hungry Restaurant</title>
   </head>
   <body>
-    <div class="container">
-      <header id="header" class="logo text-center p-5">
+    <div class="container-sm">
+      <!----------------- HEADER ------------------------------------>
+
+      <header id="header" class="logo text-center p-3">
         <h1>HUNGRY RESTAURANT</h1>
       </header>
-      <div class="hero">
+
+      <!----------------- HERO IMAGE ------------------------------------>
+
+      <div id="hero" class="text-center">
         <img
-          src="images\1debc28737625a8ed10e472d143cea8f.jpg"
+          src="./images/1debc28737625a8ed10e472d143cea8f.jpg"
           alt="Hungry Restaurant"
         />
       </div>
-      <nav class="nav"></nav>
-      <main class="main"></main>
-      <footer class="footer"></footer>
+
+      <!----------------- NAVIGATION ------------------------------------>
+
+      <nav id="nav">
+        <ul
+          class="
+            nav
+            flex-column flex-sm-row
+            text-center
+            justify-content-sm-center
+            align-content-center
+          "
+        >
+          <li class="nav-item">
+            <a class="nav-link link-dark" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link-dark" href="#starters">Starters</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link-dark" href="#mainCourse">Main Course</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link-dark" href="#desserts">Desserts</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link-dark" href="#beverages">Beverages</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link-dark" href="#reviews">Reviews</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!----------------- MAIN PAGE ------------------------------------>
+
+      <main id="main" class="container container-md container-lg">
+        <!------------------------------- ROW 1 -->
+
+        <h2 id="starters" class="text-center border m-4 p-3">Starters</h2>
+        <div class="row">
+          <div class="col col-md-6 col-lg-3">
+            <div class="card">
+              <img
+                src="./images/mockup-graphics-oDJxJb4y5tE-unsplash.jpg"
+                alt="eggs"
+              />
+              <div class="card-body">
+                <h4>Classic Egg</h4>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa
+                  similique asperiores doloremque. Cupiditate suscipit dolores
+                  obcaecati eveniet quaerat similique quia. Voluptates odio, ut
+                  consectetur iure sunt a amet. Veritatis, tempora.
+                </p>
+                <h5>2 €</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col col-md-6 col-lg-3">
+            <div class="card">
+              <img
+                src="./images/sharon-pittaway-iMdsjoiftZo-unsplash.jpg"
+                alt="flower"
+              />
+              <div class="card-body">
+                <h4>Colorful Flower</h4>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa
+                  similique asperiores doloremque. Cupiditate suscipit dolores
+                  obcaecati eveniet quaerat similique quia. Voluptates odio, ut
+                  consectetur iure sunt a amet. Veritatis, tempora.
+                </p>
+                <h5>3 €</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col col-md-6 col-lg-3">
+            <div class="card">
+              <img
+                src="./images/mockup-graphics-CTUrsRRZn20-unsplash.jpg"
+                alt="plate"
+              />
+              <div class="card-body">
+                <h4>Just Nothing</h4>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa
+                  similique asperiores doloremque. Cupiditate suscipit dolores
+                  obcaecati eveniet quaerat similique quia. Voluptates odio, ut
+                  consectetur iure sunt a amet. Veritatis, tempora.
+                </p>
+                <h5>1 €</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col col-md-6 col-lg-3">
+            <div class="card">
+              <img src="./images/evie-s-Ioq6qEibtbU-unsplash.jpg" alt="herb" />
+              <div class="card-body">
+                <h4>Healthy Herb</h4>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa
+                  similique asperiores doloremque. Cupiditate suscipit dolores
+                  obcaecati eveniet quaerat similique quia. Voluptates odio, ut
+                  consectetur iure sunt a amet. Veritatis, tempora.
+                </p>
+                <h5>3 €</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!------------------------------- ROW 2-->
+
+        <h2 id="mainCourse" class="text-center border m-4 p-3">Main Course</h2>
+        <div class="row">
+          <div class="col col-md-6 col-lg-3">
+            <div class="card">
+              <img
+                src="./images/food-photographer-david-fedulov-zhkhwGrqilw-unsplash.jpg"
+                alt="bowl"
+              />
+              <div class="card-body">
+                <h4>Awesome Bowl</h4>
+                <p>
+                  Brisket pork belly velit sed fatback consequat lorem ut non
+                  nostrud buffalo proident sint aliquip. Dolore dolore ex boudin
+                  enim drumstick hamburger id ribeye nostrud capicola. Nulla
+                  officia est esse frankfurter dolor. Venison salami tri-tip,
+                  tenderloin aute boudin ham andouille corned beef.
+                  Reprehenderit dolore kielbasa fatback.
+                </p>
+                <h5>9 €</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col col-md-6 col-lg-3">
+            <div class="card">
+              <img
+                src="./images/food-photographer-david-fedulov-E94j3rMcxlw-unsplash.jpg"
+                alt="burger"
+              />
+              <div class="card-body">
+                <h4>Normal Burger</h4>
+                <p>
+                  Hamburger chicken pork loin beef ribs. Ham fatback chicken,
+                  tongue chuck picanha andouille hamburger pork loin tenderloin
+                  ribeye t-bone burgdoggen. Leberkas chuck pork loin jowl,
+                  tri-tip venison beef ribs burgdoggen kevin. Bresaola
+                  tenderloin picanha strip steak beef ribs. Chuck picanha flank
+                  shoulder, pig hamburger ham hock.
+                </p>
+                <h5>10 €</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col col-md-6 col-lg-3">
+            <div class="card">
+              <img
+                src="./images/food-photographer-david-fedulov-FtpgFeUQuAY-unsplash.jpg"
+                alt="bowl"
+              />
+              <div class="card-body">
+                <h4>Insane Bowl</h4>
+                <p>
+                  Salami id chuck, ground round minim quis boudin pork chop
+                  fatback. Capicola tenderloin nisi pig ribeye, ham picanha
+                  biltong. Minim fugiat officia flank. Labore do ex irure magna
+                  nostrud hamburger. Shankle officia minim, tri-tip enim ham
+                  hock voluptate kevin doner duis beef ribs frankfurter veniam.
+                  Chuck pork loin pork chop ham ex pastrami.
+                </p>
+                <h5>9 €</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col col-md-6 col-lg-3">
+            <div class="card">
+              <img
+                src="./images/food-photographer-david-fedulov-X92WLoaQ1_o-unsplash.jpg"
+                alt="burger"
+              />
+              <div class="card-body">
+                <h4>Extra Burger</h4>
+                <p>
+                  Spicy jalapeno bacon ipsum dolor amet andouille porchetta pig
+                  venison pork chop pastrami short loin fatback alcatra biltong
+                  frankfurter swine chuck chislic. Meatball kielbasa sirloin,
+                  short loin meatloaf pig frankfurter chuck capicola. Ham hock
+                  meatball beef ribs rump andouille. Tail turkey beef ribs, jowl
+                  picanha hamburger pork belly. Ham kevin salami kielbasa
+                  biltong venison tenderloin ball tip beef. Pig beef ribs filet
+                  mignon, rump pork chop fatback picanha boudin tenderloin
+                  landjaeger sausage buffalo sirloin. Andouille jowl kevin beef,
+                  filet mignon bresaola pastrami chicken venison prosciutto
+                  short loin flank boudin tri-tip.
+                </p>
+                <h5>10 €</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!------------------------------- ROW 3-->
+
+        <h2 id="desserts" class="text-center border m-4 p-3">Desserts</h2>
+        <div class="row">
+          <div class="col col-md-6 col-lg-3">
+            <div class="card">
+              <img
+                src="./images/mockup-graphics-t6xh7hskUVA-unsplash.jpg"
+                alt="palatshinken"
+              />
+              <div class="card-body">
+                <h4>Triangle Pancake</h4>
+                <p>
+                  Dragée cupcake pudding sweet roll cake. Jelly beans gummi
+                  bears lemon drops halvah. Lollipop cotton candy dessert icing
+                  cupcake. Lollipop pastry macaroon chocolate bar tootsie roll
+                  danish brownie.
+                </p>
+                <h5>5 €</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col col-md-6 col-lg-3">
+            <div class="card">
+              <img
+                src="./images/mockup-graphics-OdE9bKLNhQs-unsplash.jpg"
+                alt="hmmmmm"
+              />
+              <div class="card-body">
+                <h4>Strawberry Thing</h4>
+                <p>
+                  Chocolate pie bonbon soufflé. Jujubes gummies tart donut
+                  sesame snaps. Danish marshmallow biscuit fruitcake sesame
+                  snaps.
+                </p>
+                <h5>5 €</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col col-md-6 col-lg-3">
+            <div class="card">
+              <img
+                src="./images/mockup-graphics-IEoFxaGgNh0-unsplash.jpg"
+                alt="lollipop"
+              />
+              <div class="card-body">
+                <h4>Sweetest Lollipop</h4>
+                <p>
+                  Topping danish marzipan sesame snaps pie. Lemon drops cake
+                  biscuit sweet roll ice cream candy candy jelly-o. Halvah lemon
+                  drops bonbon pie gummies muffin chupa chups pie lemon drops.
+                </p>
+                <h5>5 €</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col col-md-6 col-lg-3">
+            <div class="card">
+              <img
+                src="./images/mockup-graphics-FmMlzpBbJcg-unsplash.jpg"
+                alt="ananas"
+              />
+              <div class="card-body">
+                <h4>Yellowest Ananas</h4>
+                <p>
+                  Marzipan chocolate bar icing cake pudding fruitcake pastry oat
+                  cake. Bear claw cupcake pastry sweet roll bonbon cookie. Bear
+                  claw powder fruitcake macaroon topping chocolate bar.
+                </p>
+                <h5>5 €</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!------------------------------- ROW 4-->
+
+        <h2 id="beverages" class="text-center border m-4 p-3">Beverages</h2>
+        <div class="row">
+          <div class="col col-md-6 col-lg-3">
+            <div class="card">
+              <img
+                src="./images/mockup-graphics-2z6KBoOaHc8-unsplash.jpg"
+                alt="red drink"
+              />
+              <div class="card-body">
+                <h4>Red Water</h4>
+                <h5>2 €</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col col-md-6 col-lg-3">
+            <div class="card">
+              <img
+                src="./images/mockup-graphics-gkzFuyAeXeY-unsplash.jpg"
+                alt="coffee"
+              />
+              <div class="card-body">
+                <h4>Darkish Coffey</h4>
+                <h5>3 €</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col col-md-6 col-lg-3">
+            <div class="card">
+              <img
+                src="./images/mockup-graphics-DJyffTDrXQI-unsplash.jpg"
+                alt="tea"
+              />
+              <div class="card-body">
+                <h4>Lemon Tree</h4>
+                <h5>2 €</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col col-md-6 col-lg-3">
+            <div class="card">
+              <img
+                src="./images/mockup-graphics-Ae6BaCsQZeg-unsplash.jpg"
+                alt="coffee"
+              />
+              <div class="card-body">
+                <h4>Weak Coffey</h4>
+                <h5>3 €</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <!----------------- FOOTER ------------------------------------>
+
+      <footer id="footer" class="text-center p-3">
+        <h1>HUNGRY RESTAURANT</h1>
+        <p><small>Gergely Izsak - 2021</small></p>
+      </footer>
       <script src="./JS/script.js"></script>
     </div>
   </body>

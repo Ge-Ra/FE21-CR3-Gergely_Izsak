@@ -20,13 +20,18 @@
   font-size: 1.2em;
 }
 
-h2 {
+#nav li:hover {
+  background-color: #b5d03d;
+}
+
+#main h2 {
   font-family: "Kirang Haerang", cursive;
   background-color: #bfdd2f;
 }
 
 #main .card {
   background-color: #f1f1f3;
+  height: 90vh;
 }
 
 #main .card h4,
@@ -34,9 +39,13 @@ h2 {
   font-family: "Kirang Haerang", cursive;
 }
 
-#main .card h4 p,
-#main .card h5 p {
+#main .card p {
   font-family: "Dancing Script", cursive;
+}
+
+#main .beverages .card {
+  height: 60vh;
+  margin-bottom: 1.5em;
 }
 
 #footer {

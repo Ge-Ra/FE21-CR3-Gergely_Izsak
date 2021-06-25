@@ -9,6 +9,7 @@
 #header {
   background-color: $secondaryColor;
   font-family: $mainText;
+
   h1 {
     font-size: 3em;
     color: $mainColor;
@@ -27,26 +28,38 @@
   background-color: $secondaryColor;
   font-family: $mainText;
   font-size: 1.2em;
+
+  li {
+    &:hover {
+      background-color: rgb(181, 208, 61);
+    }
+  }
 }
 
 // MAIN styling
-h2 {
-  font-family: $mainText;
-  background-color: $secondaryColor;
-}
 
 #main {
+  h2 {
+    font-family: $mainText;
+    background-color: $secondaryColor;
+  }
   .card {
     background-color: $bg-color;
+    height: 90vh;
 
     h4,
     h5 {
       font-family: $mainText;
-
-      p {
-        font-family: $secondaryText;
-      }
     }
+
+    p {
+      font-family: $secondaryText;
+    }
+  }
+
+  .beverages .card {
+    height: 60vh;
+    margin-bottom: 1.5em;
   }
 }
 
@@ -54,11 +67,13 @@ h2 {
 
 #footer {
   background-color: $secondaryColor;
+
   h1 {
     font-family: $mainText;
     font-size: 1em;
     color: $mainColor;
   }
+  
   p {
     font-family: $secondaryText;
   }

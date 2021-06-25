@@ -1,8 +1,9 @@
-/*  -- MOBILE FIRST Layout!!! -- */
+// MOBILE FIRST Layout!!!
 
-/* General Rules */
+// General Rules
 
 @import 'variables';
+
 
 // HEADER styling
 
@@ -27,12 +28,13 @@
 #nav {
   background-color: $secondaryColor;
   font-family: $mainText;
-  font-size: 1.2em;
 
   li {
     &:hover {
       background-color: rgb(181, 208, 61);
     }
+
+    font-size: 3vw;
   }
 }
 
@@ -42,10 +44,12 @@
   h2 {
     font-family: $mainText;
     background-color: $secondaryColor;
+    font-size: 2vw;
   }
+
   .card {
     background-color: $bg-color;
-    height: 90vh;
+    height: calc(100% - 10px);
 
     h4,
     h5 {
@@ -58,8 +62,7 @@
   }
 
   .beverages .card {
-    height: 70vh;
-    margin-bottom: 1.5em;
+    height: calc(100% - 1px);
   }
 }
 
@@ -67,6 +70,12 @@
 
 #footer {
   background-color: $secondaryColor;
+
+  #nav2 {
+    background-color: $secondaryColor;
+    font-family: $mainText;
+    font-size: 0.8em;
+  }
 
   h1 {
     font-family: $mainText;

@@ -16,13 +16,13 @@
   </head>
   <body>
     <div class="container container-sm container-md container-lg .img-fluid">
-      <!----------------- HEADER ------------------------------------>
+      <!--------------------------------------------------------------- HEADER ------------------------------------>
 
       <header id="header" class="logo text-center p-3">
         <h1>HUNGRY RESTAURANT</h1>
       </header>
 
-      <!----------------- HERO IMAGE ------------------------------------>
+      <!--------------------------------------------------------------- HERO IMAGE ------------------------------------>
 
       <div id="hero" class="text-center">
         <img
@@ -31,15 +31,15 @@
         />
       </div>
 
-      <!----------------- NAVIGATION ------------------------------------>
+      <!--------------------------------------------------------------- NAVIGATION ------------------------------------>
 
       <nav id="nav">
         <ul
           class="
             nav
-            flex-column flex-sm-row
+            flex-column flex-sm-column flex-md-row flex-lg-row
             text-center
-            justify-content-sm-center
+            justify-content-center
             align-content-center
           "
         >
@@ -64,20 +64,33 @@
         </ul>
       </nav>
 
-      <!----------------- MAIN PAGE ------------------------------------>
+      <!--------------------------------------------------------------- MAIN PAGE ------------------------------------>
 
       <main id="main" class="container container-sm container-md container-lg">
-        <!------------------------------- ROW 1 -->
+        <h2 id="starters" class="text-center border border-secondary m-4 p-3">
+          Starters
+        </h2>
 
-        <h2 id="starters" class="text-center border m-4 p-3">Starters</h2>
+        <!------------------------------- ROW/COLUMN-1 ------------------------------------------>
+
         <div class="row">
-          <div class="col col-md-6 col-lg-3">
+          <!-------------------------------- CARD-1 ----------------------------------->
+
+          <div class="col col-12 col-sm-6 col-md-6 col-lg-3">
             <div class="card">
               <img
+                class="img-fluid"
                 src="./images/mockup-graphics-CTUrsRRZn20-unsplash.jpg"
                 alt="plate"
               />
-              <div class="card-body d-flex flex-column justify-content-between">
+              <div
+                class="
+                  card-body
+                  d-flex d-sm-flex d-md-flex d-lg-flex
+                  flex-column
+                  justify-content-between
+                "
+              >
                 <h4>Just Nothing</h4>
                 <p>
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa
@@ -89,13 +102,24 @@
               </div>
             </div>
           </div>
-          <div class="col col-md-6 col-lg-3">
+
+          <!-------------------------------- CARD-2 ----------------------------------->
+
+          <div class="col col-12 col-sm-6 col-md-6 col-lg-3">
             <div class="card">
               <img
+                class="img-fluid"
                 src="./images/sharon-pittaway-iMdsjoiftZo-unsplash.jpg"
                 alt="flower"
               />
-              <div class="card-body d-flex flex-column justify-content-between">
+              <div
+                class="
+                  card-body
+                  d-flex d-sm-flex d-md-flex d-lg-flex
+                  flex-column
+                  justify-content-between
+                "
+              >
                 <h4>Colorful Flower</h4>
                 <p>
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa
@@ -107,13 +131,24 @@
               </div>
             </div>
           </div>
-          <div class="col col-md-6 col-lg-3">
+
+          <!-------------------------------- CARD-3 ----------------------------------->
+
+          <div class="col col-12 col-sm-6 col-md-6 col-lg-3">
             <div class="card">
               <img
+                class="img-fluid"
                 src="./images/mockup-graphics-oDJxJb4y5tE-unsplash.jpg"
                 alt="eggs"
               />
-              <div class="card-body d-flex flex-column justify-content-between">
+              <div
+                class="
+                  card-body
+                  d-flex d-sm-flex d-md-flex d-lg-flex
+                  flex-column
+                  justify-content-between
+                "
+              >
                 <h4>Classic Egg</h4>
                 <p>
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa
@@ -125,13 +160,24 @@
               </div>
             </div>
           </div>
-          <div class="col col-md-6 col-lg-3">
+
+          <!-------------------------------- CARD-4 ----------------------------------->
+
+          <div class="col col-12 col-sm-6 col-md-6 col-lg-3">
             <div class="card">
               <img
+                class="img-fluid"
                 src="./images/mockup-graphics-FmMlzpBbJcg-unsplash.jpg"
                 alt="ananas"
               />
-              <div class="card-body d-flex flex-column justify-content-between">
+              <div
+                class="
+                  card-body
+                  d-flex d-sm-flex d-md-flex d-lg-flex
+                  flex-column
+                  justify-content-between
+                "
+              >
                 <h4>Yellowest Ananas</h4>
                 <p>
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa
@@ -145,17 +191,28 @@
           </div>
         </div>
 
-        <!------------------------------- ROW 2-->
+        <!------------------------------- ROW/COLUMN-2------------------------------------------>
 
-        <h2 id="mainCourse" class="text-center border m-4 p-3">Main Course</h2>
+        <h2 id="mainCourse" class="text-center border border-secondary m-4 p-3">
+          Main Course
+        </h2>
         <div class="row">
-          <div class="col col-md-6 col-lg-3">
+          <!-------------------------------- CARD-1 ----------------------------------->
+
+          <div class="col col-sm-6 col-md-6 col-lg-3">
             <div class="card">
               <img
                 src="./images/food-photographer-david-fedulov-zhkhwGrqilw-unsplash.jpg"
                 alt="bowl"
               />
-              <div class="card-body d-flex flex-column justify-content-between">
+              <div
+                class="
+                  card-body
+                  d-flex d-sm-flex d-md-flex d-lg-flex
+                  flex-column
+                  justify-content-between
+                "
+              >
                 <h4>Awesome Bowl</h4>
                 <p>
                   Brisket pork belly velit sed fatback consequat lorem ut non
@@ -169,13 +226,23 @@
               </div>
             </div>
           </div>
-          <div class="col col-md-6 col-lg-3">
+
+          <!-------------------------------- CARD-2 ----------------------------------->
+
+          <div class="col col-sm-6 col-md-6 col-lg-3">
             <div class="card">
               <img
                 src="./images/food-photographer-david-fedulov-E94j3rMcxlw-unsplash.jpg"
                 alt="burger"
               />
-              <div class="card-body d-flex flex-column justify-content-between">
+              <div
+                class="
+                  card-body
+                  d-flex d-sm-flex d-md-flex d-lg-flex
+                  flex-column
+                  justify-content-between
+                "
+              >
                 <h4>Normal Burger</h4>
                 <p>
                   Hamburger chicken pork loin beef ribs. Ham fatback chicken,
@@ -189,13 +256,23 @@
               </div>
             </div>
           </div>
-          <div class="col col-md-6 col-lg-3">
+
+          <!-------------------------------- CARD-3 ----------------------------------->
+
+          <div class="col col-sm-6 col-md-6 col-lg-3">
             <div class="card">
               <img
                 src="./images/food-photographer-david-fedulov-FtpgFeUQuAY-unsplash.jpg"
                 alt="bowl"
               />
-              <div class="card-body d-flex flex-column justify-content-between">
+              <div
+                class="
+                  card-body
+                  d-flex d-sm-flex d-md-flex d-lg-flex
+                  flex-column
+                  justify-content-between
+                "
+              >
                 <h4>Insane Bowl</h4>
                 <p>
                   Salami id chuck, ground round minim quis boudin pork chop
@@ -209,13 +286,23 @@
               </div>
             </div>
           </div>
-          <div class="col col-md-6 col-lg-3">
+
+          <!-------------------------------- CARD-4 ----------------------------------->
+
+          <div class="col col-sm-6 col-md-6 col-lg-3">
             <div class="card">
               <img
                 src="./images/food-photographer-david-fedulov-X92WLoaQ1_o-unsplash.jpg"
                 alt="burger"
               />
-              <div class="card-body d-flex flex-column justify-content-between">
+              <div
+                class="
+                  card-body
+                  d-flex d-sm-flex d-md-flex d-lg-flex
+                  flex-column
+                  justify-content-between
+                "
+              >
                 <h4>Extra Burger</h4>
                 <p>
                   Spicy jalapeno bacon ipsum dolor amet andouille porchetta pig
@@ -231,17 +318,28 @@
           </div>
         </div>
 
-        <!------------------------------- ROW 3-->
+        <!------------------------------- ROW/COLUMN-3------------------------------------------>
 
-        <h2 id="desserts" class="text-center border m-4 p-3">Desserts</h2>
+        <h2 id="desserts" class="text-center border border-secondary m-4 p-3">
+          Desserts
+        </h2>
         <div class="row">
-          <div class="col col-md-6 col-lg-3">
+          <!-------------------------------- CARD-1 ----------------------------------->
+
+          <div class="col col-sm-6 col-md-6 col-lg-3">
             <div class="card">
               <img
                 src="./images/mockup-graphics-t6xh7hskUVA-unsplash.jpg"
                 alt="palatshinken"
               />
-              <div class="card-body d-flex flex-column justify-content-between">
+              <div
+                class="
+                  card-body
+                  d-flex d-sm-flex d-md-flex d-lg-flex
+                  flex-column
+                  justify-content-between
+                "
+              >
                 <h4>Triangle Pancake</h4>
                 <p>
                   Dragée cupcake pudding sweet roll cake. Jelly beans gummi
@@ -253,13 +351,23 @@
               </div>
             </div>
           </div>
-          <div class="col col-md-6 col-lg-3">
+
+          <!-------------------------------- CARD-2 ----------------------------------->
+
+          <div class="col col-sm-6 col-md-6 col-lg-3">
             <div class="card">
               <img
                 src="./images/mockup-graphics-OdE9bKLNhQs-unsplash.jpg"
                 alt="hmmmmm"
               />
-              <div class="card-body d-flex flex-column justify-content-between">
+              <div
+                class="
+                  card-body
+                  d-flex d-sm-flex d-md-flex d-lg-flex
+                  flex-column
+                  justify-content-between
+                "
+              >
                 <h4>Strawberry Thing</h4>
                 <p>
                   Chocolate pie bonbon soufflé. Jujubes gummies tart donut
@@ -270,13 +378,23 @@
               </div>
             </div>
           </div>
-          <div class="col col-md-6 col-lg-3">
+
+          <!-------------------------------- CARD-3 ----------------------------------->
+
+          <div class="col col-sm-6 col-md-6 col-lg-3">
             <div class="card">
               <img
                 src="./images/mockup-graphics-IEoFxaGgNh0-unsplash.jpg"
                 alt="lollipop"
               />
-              <div class="card-body d-flex flex-column justify-content-between">
+              <div
+                class="
+                  card-body
+                  d-flex d-sm-flex d-md-flex d-lg-flex
+                  flex-column
+                  justify-content-between
+                "
+              >
                 <h4>Sweetest Lollipop</h4>
                 <p>
                   Topping danish marzipan sesame snaps pie. Lemon drops cake
@@ -287,13 +405,23 @@
               </div>
             </div>
           </div>
-          <div class="col col-md-6 col-lg-3">
+
+          <!-------------------------------- CARD-4 ----------------------------------->
+
+          <div class="col col-sm-6 col-md-6 col-lg-3">
             <div class="card">
               <img
                 src="./images/mockup-graphics-89BvhH_Ni6k-unsplash.jpg"
                 alt="cake"
               />
-              <div class="card-body d-flex flex-column justify-content-between">
+              <div
+                class="
+                  card-body
+                  d-flex d-sm-flex d-md-flex d-lg-flex
+                  flex-column
+                  justify-content-between
+                "
+              >
                 <h4>Brown Delicious</h4>
                 <p>
                   Marzipan chocolate bar icing cake pudding fruitcake pastry oat
@@ -306,53 +434,94 @@
           </div>
         </div>
 
-        <!------------------------------- ROW 4-->
+        <!------------------------------- ROW/COLUMN-4------------------------------------------>
 
-        <h2 id="beverages" class="text-center border m-4 p-3">Beverages</h2>
-        <div class="beverages row">
-          <div class="col col-md-6 col-lg-3">
+        <h2 id="beverages" class="text-center border border-secondary m-4 p-3">
+          Beverages
+        </h2>
+        <div class="beverages row mb-4">
+          <!-------------------------------- CARD-1 ----------------------------------->
+
+          <div class="col col-sm-6 col-md-6 col-lg-3">
             <div class="card">
               <img
                 src="./images/mockup-graphics-2z6KBoOaHc8-unsplash.jpg"
                 alt="red drink"
               />
-              <div class="card-body d-flex flex-column justify-content-between">
+              <div
+                class="
+                  card-body
+                  d-flex d-sm-flex d-md-flex d-lg-flex
+                  flex-column
+                  justify-content-between
+                "
+              >
                 <h4>Red Water</h4>
                 <h5>2 €</h5>
               </div>
             </div>
           </div>
-          <div class="col col-md-6 col-lg-3">
+
+          <!-------------------------------- CARD-2 ----------------------------------->
+
+          <div class="col col-sm-6 col-md-6 col-lg-3">
             <div class="card">
               <img
                 src="./images/mockup-graphics-gkzFuyAeXeY-unsplash.jpg"
                 alt="coffee"
               />
-              <div class="card-body d-flex flex-column justify-content-between">
+              <div
+                class="
+                  card-body
+                  d-flex d-sm-flex d-md-flex d-lg-flex
+                  flex-column
+                  justify-content-between
+                "
+              >
                 <h4>Darkish Coffey</h4>
                 <h5>3 €</h5>
               </div>
             </div>
           </div>
-          <div class="col col-md-6 col-lg-3">
+
+          <!-------------------------------- CARD-3 ----------------------------------->
+
+          <div class="col col-sm-6 col-md-6 col-lg-3">
             <div class="card">
               <img
                 src="./images/mockup-graphics-DJyffTDrXQI-unsplash.jpg"
                 alt="tea"
               />
-              <div class="card-body d-flex flex-column justify-content-between">
+              <div
+                class="
+                  card-body
+                  d-flex d-sm-flex d-md-flex d-lg-flex
+                  flex-column
+                  justify-content-between
+                "
+              >
                 <h4>Lemon Tree</h4>
                 <h5>2 €</h5>
               </div>
             </div>
           </div>
-          <div class="col col-md-6 col-lg-3">
+
+          <!-------------------------------- CARD-4 ----------------------------------->
+
+          <div class="col col-sm-6 col-md-6 col-lg-3">
             <div class="card">
               <img
                 src="./images/mockup-graphics-Ae6BaCsQZeg-unsplash.jpg"
                 alt="coffee"
               />
-              <div class="card-body d-flex flex-column justify-content-between">
+              <div
+                class="
+                  card-body
+                  d-flex d-sm-flex d-md-flex d-lg-flex
+                  flex-column
+                  justify-content-between
+                "
+              >
                 <h4>Weak Coffey</h4>
                 <h5>3 €</h5>
               </div>
@@ -361,9 +530,43 @@
         </div>
       </main>
 
-      <!----------------- FOOTER ------------------------------------>
+      <!--------------------------------------------------------------- FOOTER ------------------------------------>
 
-      <footer id="footer" class="text-center p-3">
+      <footer id="footer" class="text-center">
+        <nav id="nav2">
+          <ul
+            class="
+              nav
+              flex-row
+              text-center
+              justify-content-center
+              align-content-center
+            "
+          >
+            <li class="nav-item">
+              <a class="nav-link link-dark" aria-current="page" href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-dark" href="#starters">Starters</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-dark" href="#mainCourse">Main Course</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-dark" href="#desserts">Desserts</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-dark" href="#beverages">Beverages</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-dark" href="./pages/review.html"
+                >Reviews</a
+              >
+            </li>
+          </ul>
+        </nav>
         <h1>HUNGRY RESTAURANT</h1>
         <p><small>Gergely Izsak - 2021</small></p>
       </footer>
